@@ -1,0 +1,45 @@
+/*Header*/
+
+header {
+    background-color: var(--yellow);
+    font-size: var(--paragraph);
+    padding-bottom: 10px;
+}
+
+header .burger-menu {
+     background-color: var(--light_blue);
+     color: white;
+     width: 25px; /*15*/
+     padding: 7px;
+     border-radius: 5px;
+     text-align:center;
+     margin: 10px auto 0; /*de arriba 10 px, auto es izq dere, y 0 hacia abajo*/
+     /*top right botton left*/
+     /* top right-left bottom */
+}
+
+header .logo {
+     width: 130px;/**/
+     margin-left: 25px;
+     padding-top: 20px;
+     margin-bottom: 10px;
+}
+
+/*serch-bar*/
+
+header .search-bar {
+    display: inline-block; /*la lupa se va al lado de la barra de busqueda*/
+    margin-left: 15px;
+    border: none;
+}
+
+header .quota {
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+/*navegacion*/
+
+header nav ul#top-list { /*?*/
+    margin-bottom: 15px;
+}
