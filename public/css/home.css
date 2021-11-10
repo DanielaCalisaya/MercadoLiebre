@@ -75,12 +75,19 @@ main.home {
 
 /*Media queries-mobile*/
 @media (min-width: 361px) {
+
     .home .card { /*si el primer parametro es 0, tira sombra en los 4 lados*/
         box-shadow: 0px 0px 10px rgb(100, 100, 100); /*3er parametro hace q se difumine*/
     }
+
     .home .card .card-content .product-name {
         display: block;
     }
+
+    /* .home .card .card-content .product-name:hover {
+        display: none;
+        
+    }  */
 }
 
 
@@ -101,7 +108,7 @@ main.home {
     }
 
     .home .historial {
-        font-family: --font-roboto;
+        font-family: var(--font-roboto);
         text-align: center;
         margin-top: 10px;
     }
@@ -123,8 +130,14 @@ main.home {
 
     header .top-list {
         display: flex;
-        /*justify-content:space-evenly;*/
+        justify-content: space-evenly;
         align-items: center;
+    }
+
+    .top-list .search-bar input{
+        width: 250px;
+        height: 24px;
+        border: none;
     }
 
     .top-list .search-bar input, p, i {
@@ -157,6 +170,26 @@ main.home {
 
 @media (min-width: 1200px) {
 
+    /*header*/
+    
+    .logo {
+        margin-right: 80px;
+    }
+
+    header .top-list {
+        justify-content: start; 
+    } 
+
+    .top-list .search-bar input{
+        width: 400px;
+    }
+
+    .top-list .quota {
+        margin-left: 50px;
+    }
+
+    /*home section*/
+
     main.home section {
         max-width: 24%;
     }
@@ -170,9 +203,9 @@ main.home {
     footer {
         display: flex;
         flex-direction: row;
-    }
+    } 
     
-    footer .copy {
-        /*salto de linea el copy-bajar*/
+    footer p {
+     /*p poner dentro de un div?*/
     }
 }
