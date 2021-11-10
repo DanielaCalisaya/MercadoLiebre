@@ -94,4 +94,12 @@ font-size: var(--prices);
         width: 60%;
         height: 35px;
     }
+
+    .button-container {
+        transition: background-color 500ms;
+    }
+
+    .button:hover {
+        background-color: #0022AA;
+    }
 }
