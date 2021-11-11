@@ -58,6 +58,7 @@ main.home {
 
 .home .card .card-content .product-info p:nth-child(1) {
     flex-grow: 0.3;
+    /*flex-grow: propiedad q especifica cuánto crecerá el artículo en relación con el resto de los artículos flexibles dentro del mismo contenedor.*/
 }
 
 .home .card .card-content .product-info p:nth-child(2) {
@@ -165,7 +166,7 @@ main.home {
 }
 
 
-/*Media queries-desktop (aqui estarán los efectos hover)*/
+/*Media queries-desktop (solo aqui estarán los efectos hover)*/
 @media (min-width: 1200px) {
 
     /*header*/
