@@ -243,7 +243,8 @@ main.home {
         color:  var(--green);
     }
 
-    footer p {
-     /*p poner dentro de un div?*/
+    footer .copy { 
+        position: absolute;
+        margin-top: 150px; 
     }
 }
