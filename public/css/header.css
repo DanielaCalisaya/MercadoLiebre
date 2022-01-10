@@ -31,6 +31,8 @@ header .search-bar {
     display: inline-block; /*la lupa se va al lado de la barra de busqueda*/
     margin-left: 15px;
     border: none;
+    display: flex;
+    justify-content: center; 
 }
 
 header .quota {
