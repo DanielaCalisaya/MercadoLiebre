@@ -27,12 +27,16 @@ header .logo {
 
 /*serch-bar*/
 
-header .search-bar {
+header .top-list .form-search .search-bar {
     display: inline-block; /*la lupa se va al lado de la barra de busqueda*/
     margin-left: 15px;
     border: none;
     display: flex;
     justify-content: center; 
+}
+
+header .top-list .form-search .search-bar button i {
+    cursor: pointer;
 }
 
 header .quota {
