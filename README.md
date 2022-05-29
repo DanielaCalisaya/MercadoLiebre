@@ -33,7 +33,7 @@ Todo e-commerce necesita por lo menos dos formularios: uno para registrar a cada
 Ahora tenemos que reorganizar un poco nuestro código y seguir mejorando el aspecto visual de nuestras páginas.
 Sumemos mejoras a Mercado Liebre.
 
-Link deployed to Heroku: 
+Link deployed to Heroku: https://primer-mercado-liebre.herokuapp.com/ 
 
 
 ## M4 C11, C12. C13, C14, C15, C16
