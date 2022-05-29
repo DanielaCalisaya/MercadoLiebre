@@ -1,6 +1,6 @@
 let express = require('express');
 let app = express();
-const PORT = 3000;
+const port = process.env.PORT || 3000;
 let path = require('path');
 
 //middlewares
@@ -23,4 +23,4 @@ app.get('/login', function (req, res){
 
 
 //Server-servidor
-app.listen(PORT, () => console.log(`Servidor escuchando en el puerto ${PORT} -> http://localhost:${PORT}`))
+app.listen(port, () => console.log(`Servidor escuchando en el puerto ${port} -> http://localhost:${port}`))

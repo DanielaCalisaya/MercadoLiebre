@@ -7,17 +7,17 @@
 
 - ### Estructura de un sitio web
 
-Crearemos la vista para dispositivos móviles de nuestra aplicación, por el momento solo su estructura.
+Creación de la vista para dispositivos móviles de la aplicación, solo su estructura.
 
 - ### Agregando estilos
 
-Colocaremos estilos al header de nuestro home.html. Es decir, debemos sumarle estilos al navbar,
+Estilos al header de nuestro home.html. Se le sumaran estilos al navbar,
 login y al search bar del header.
-Crearemos la carpeta public/css para ubicar todos los archivos de estilo. 
+Creación de la carpeta public/css para ubicar todos los archivos de estilo. 
 
 - ### Diseño adaptativo
 
-Nuestro sitio debe funcionar en distintos dispositivos y su navegabilidad se debe adaptar a cada uno de ellos.
+El sitio debe funcionar en distintos dispositivos y su navegabilidad se debe adaptar a cada uno de ellos.
 La apariencia de nuestro sitio debe ser la correcta en las distintas medidas de viewport.
 
 - ### Posicionamiento avanzado Flex-box
@@ -33,6 +33,7 @@ Todo e-commerce necesita por lo menos dos formularios: uno para registrar a cada
 Ahora tenemos que reorganizar un poco nuestro código y seguir mejorando el aspecto visual de nuestras páginas.
 Sumemos mejoras a Mercado Liebre.
 
+Link deployed to Heroku: 
 
 
 ## M4 C11, C12. C13, C14, C15, C16
